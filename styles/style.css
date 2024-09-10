@@ -1,0 +1,70 @@
+/* Importa a fonte 'Belleza' do Google Fonts para uso no site */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+/* Define estilos gerais para todos os elementos da página */
+* {
+  margin: 0; /* O valor definido aqui é uma unidade inválida. Normalmente, deveria ser `margin: 0;` para remover a margem padrão. */
+  padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+  box-sizing: border-box; /* Inclui a borda e o preenchimento no cálculo da largura e altura dos elementos */
+  text-decoration: none; /* Remove o sublinhado dos links por padrão */
+}
+
+/* Estilo para o corpo da página */
+body {
+  background-color: #ebecf0; /* Define a cor de fundo do corpo da página */
+}
+
+/* Estilo para listas não ordenadas */
+ul {
+  list-style-type: none; /* Remove os marcadores das listas */
+  margin: 0; /* Remove a margem padrão das listas */
+  padding: 0; /* Remove o preenchimento padrão das listas */
+  overflow: hidden; /* Garante que o conteúdo flua corretamente dentro dos limites do elemento pai */
+}
+
+/* Estilo para itens de lista */
+li {
+  float: left; /* Alinha os itens da lista horizontalmente */
+}
+
+/* Estilo para links dentro dos itens de lista */
+li a {
+  display: block; /* Faz com que o link ocupe toda a área do item de lista */
+  color: black; /* Define a cor do texto dos links como preto */
+  text-align: center; /* Alinha o texto dos links ao centro */
+  padding: 14px 16px; /* Adiciona espaçamento interno ao redor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para o efeito de passar o mouse sobre os itens da lista */
+li:hover {
+  text-decoration: underline; /* Adiciona um sublinhado aos links quando o mouse passa sobre eles */
+}
+
+/* Estilo para a imagem principal */
+.imagemprincipal {
+  background-color: #fcfcfa; /* Define a cor de fundo da imagem principal */
+  width: 1530px; /* Define a largura da imagem principal */
+}
+
+/* Estilo para o container de blocos principais */
+.blocos-principal {
+  display: grid; /* Usa o layout de grid para o container */
+  grid-template-columns: auto auto auto auto; /* Define quatro colunas de tamanhos automáticos */
+  justify-content: space-between; /* Distribui os itens com espaço igual entre eles */
+  padding: 30px; /* Adiciona um preenchimento interno ao redor do conteúdo do container */
+}
+
+/* Estilo para o menu do cabeçalho */
+.cabecalho-menu {
+  display: grid; /* Usa o layout de grid para o menu do cabeçalho */
+  grid-template-columns: auto auto; /* Define duas colunas automáticas */
+  padding: 0px; /* Remove o preenchimento ao redor do conteúdo do menu */
+}
+
+/* Estilo para os itens do menu do cabeçalho */
+.cabecalho-menu-item {
+  margin-top: 100px; /* Adiciona uma margem superior aos itens do menu */
+  font-family: 'Belleza'; /* Define a fonte dos itens do menu como 'Belleza' */
+  font-size: 30px; /* Define o tamanho da fonte dos itens do menu */
+}

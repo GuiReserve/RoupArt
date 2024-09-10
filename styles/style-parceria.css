@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body{
+  background-color: #ebecf0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: var(--cor-primaria);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover{
+    text-decoration:underline;
+ }
+  
+ .cabecalho-menu{
+   display: grid;
+   grid-template-columns: auto auto;
+   padding: 20px;
+ }
+ 
+ .cabecalho-menu-item{
+   margin-top: 100px;
+   font-family: 'Belleza';
+   font-size: 30px;
+ 
+ }
+
+ .conteudo-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto; 
+    gap: 20px; 
+  }
+  
+  .conteudo-principal-escrito {
+    grid-column: 1;
+  }
+  
+  .botao-doacao {
+    grid-column: 1; 
+    margin-top: 20px;
+    border: 2px solid #adb6d0;
+    background-color: #adb6d0;
+    padding: 21px 0px;
+    text-align: center;
+    border-radius: 8px;
+    width: 400px;
+    text-decoration: none;
+    margin: 0 0 0 60px;
+  }
+
+  .botao-doacao a{
+    color: white;
+    font-family: 'Belleza';
+    font-weight: 700; 
+    font-size: 22px;   
+  }
+
+  .botao-doacao:hover{
+    background-color: lightblue;
+  }
+  .imagem-parceria {
+    margin-top: 20px;
+    grid-column: 2; /* Alinha imagem na segunda coluna */
+    justify-content: center;
+    width: 600px;
+    position: absolute; /* Remove a imagem do fluxo normal do documento */
+    top: 10; 
+    float: right; /* Posiciona a imagem à direita */
+    margin-left: 925px;
+
+  }
+  
+  .conteudo-principal-escrito{
+    width: 602px;
+    padding-left: 60px;
+}
+
+.conteudo-principal-titulo{
+  font-size: 31px;
+  font-family: 'Belleza';
+  margin-top: 20px;
+}
+
+.conteudo-principal-texto{
+  font-family: 'Belleza';
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.cabecalho-menu{
+  padding: 0px;
+}
